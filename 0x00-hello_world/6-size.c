@@ -3,12 +3,18 @@
  * main - A program that prints the size of various computer data types
  * Retrun: 0 (Success)
  */
-main(void)
+
+int main(void)
 {
-	printf("Size of char: %d byte(s)\n", (unsigned long)sizeof(char));
-	printf("Size of an int: %dbyte(s)\n", (unsigned long)sizeof(int));
-	printf("Size of a long int: %dbyte(s)\n", (unsigned long)sizeof(long int));
-	printf("Size of a long long int : %dbyte(s)\n", (unsigned long)sizeof(long long int));
-	printf("Size of a float: %dbyte(s)\n", (unsigned long)sizeof(float));
+	int m;
+	char a;
+	float f;
+	long int c;
+	long long int d;
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(m));
+	printf("Size of a long int : %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
