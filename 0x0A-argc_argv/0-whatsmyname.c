@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return : always 0
+ * Return: always 0
+ * @argc: value of program arguments
+ * @argv: array of the argc
  */
 int main(int argc, char **argv)
 {
