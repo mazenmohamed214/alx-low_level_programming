@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint - prints list of int 
+ * print_listint - prints list of int
  * @h: linked list
  * Return: no of nodes
  */
@@ -9,8 +9,6 @@ size_t print_listint(const listint_t *h)
 {
 	size_t count = 0;
 
-	if (h == NULL)
-		return (1);
 	while (h)
 	{
 		printf("%d\n", h->n);
