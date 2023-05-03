@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * print_listint - prints list of int
  * @h: linked list
+ *
  * Return: no of nodes
  */
+
 size_t print_listint(const listint_t *h)
 {
 	size_t count = 0;
