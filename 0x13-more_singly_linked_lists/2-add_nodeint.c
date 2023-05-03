@@ -5,6 +5,8 @@
  * add_nodeint - adds node from start
  * @head: double ptr to linked list
  * @n: data of node
+ *
+ * Return: address of new element
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
